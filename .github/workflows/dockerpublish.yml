@@ -6,6 +6,8 @@ name: Publish Docker Image
 # documentation.
 
 on:
+  workflow_dispatch: # Put here!!
+  
   schedule:
     - cron: "35 23 1 * *"
     
