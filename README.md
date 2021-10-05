@@ -49,7 +49,7 @@ Don't forget to add to rc.local
 
 - - -
 ## Docker
-`docker run -i -d --device /dev/i2c-1 --device /dev/gpiomem --net=host ghcr.io/darkirata/rackpi:latest`
+`docker run -i -d --device /dev/i2c-1 --device /dev/gpiomem --net=host ghcr.io/darkirata/rackpi:main`
 
 *Home Assistant tutorial for enabling I2C on Home Assistant OS - 05.10.2021*
 
