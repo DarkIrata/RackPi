@@ -44,6 +44,14 @@ Available Methods:
 Perfectly for displaying multiple informations and split them into sub-pages.
 Longpress is used to change to the next sub-page
 
-
 - - -
 Don't forget to add to rc.local
+
+- - -
+## Docker
+`docker run -i -d --device /dev/i2c-1 --device /dev/gpiomem --net=host ghcr.io/darkirata/rackpi:latest`
+
+*Home Assistant tutorial for enabling I2C on Home Assistant OS - 05.10.2021*
+
+https://www.home-assistant.io/common-tasks/os#enable-i2c
+
