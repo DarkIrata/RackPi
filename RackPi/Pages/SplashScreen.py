@@ -20,7 +20,7 @@ class SplashScreen(MultiPageBase):
             self.DrawPage2()
         
     def DrawPage1(self):
-        self.drawer.WriteOnCanvas("RackPI v1.0.0", 0, xOffset=16, yOffset=3)
+        self.drawer.WriteOnCanvas("RackPI v1.0.1", 0, xOffset=16, yOffset=3)
         self.drawer.WriteOnCanvas("+-+-+-+-+-+-+-+-+-+-+", 1)
         self.drawer.WriteOnCanvas("github.com/DarkIrata", 2, yOffset=-5)
 
@@ -28,6 +28,6 @@ class SplashScreen(MultiPageBase):
         self.pos += 5
         if self.pos > 128:
             self.pos = -10
-        self.drawer.WriteOnCanvas("RackPI v1.0.0", 0, xOffset=16, yOffset=3)
+        self.drawer.WriteOnCanvas("RackPI v1.0.1", 0, xOffset=16, yOffset=3)
         self.drawer.WriteOnCanvas("Eggo", 1, xOffset=self.pos)
         self.drawer.WriteOnCanvas("(/^-^)/", 2, yOffset=-2)
