@@ -16,7 +16,7 @@ import traceback
 ## Configuration ##
 LedPin = 23                  # PI, GPIO Pin
 ButtonPin = 20               # PI, GPIO Pin
-DisplayTimeout = 8           # Seconds until displays turns off when no input is given
+DisplayTimeout = 7           # Seconds until displays turns off when no input is given
 LongPressTime = 2            # Seconds until a hold is registered as long press
 RotationFromPins = False     # True = From Pins to Right | False = Mirrored 
 ActivePages = ["NetInfo", "HostInfo", "Reboot", "SplashScreen"]
