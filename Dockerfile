@@ -1,5 +1,4 @@
-ARG PYTHON_VERSION=3
-FROM python:${PYTHON_VERSION}
+FROM python:3-slim
 
 ENV InsideDocker Yes
 
