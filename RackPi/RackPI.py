@@ -32,7 +32,7 @@ class Program:
     currentPage = None
     displayOnTime = None
     buttonPressTime = None
-    loopSleepTime = 0.02   # 20ms
+    loopSleepTime = 0.15   # 150ms
     screenWidth = 128
     screenHeight = 32
     drawer: Drawer = None
