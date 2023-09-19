@@ -1,13 +1,13 @@
-from Data.Drawer import Drawer
-from Data.Helper import *
+from Utilities.Drawer import Drawer
+from Utilities.Helper import *
 from Pages.PageBase import PageBase
 import os
 
 class Reboot(PageBase):
     inDocker = False
     
-    def __init__(self, drawer: Drawer):
-        PageBase.__init__(self, drawer)
+    def __init__(self, drawer: Drawer, config):
+        PageBase.__init__(self, drawer, config)
         self.inDocker = os.environ.get('InsideDocker', False)
 
     def UpdateCanvas(self):

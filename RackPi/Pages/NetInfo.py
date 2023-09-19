@@ -1,11 +1,11 @@
-from Data.Drawer import Drawer
-from Data.Helper import *
+from Utilities.Drawer import Drawer
+from Utilities.Helper import *
 from Pages.MultiPageBase import MultiPageBase
 import socket
 
 class NetInfo(MultiPageBase):
-    def __init__(self, drawer: Drawer):
-        MultiPageBase.__init__(self, 2, drawer)
+    def __init__(self, drawer: Drawer, config):
+        MultiPageBase.__init__(self, 2, drawer, config)
 
     def UpdateCanvas(self):
         if not self.CanUpdate(10):

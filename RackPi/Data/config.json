@@ -1,0 +1,10 @@
+{
+    "LedPin": 23,
+    "ButtonPin": 20,
+    "DisplayTimeout": 7,
+    "LongPressTime": 2,
+    "RotationFromPins": false,
+    "ActivePages": ["NetInfo", "HostInfo", "Reboot", "SplashScreen"],
+    "SplashScreenTimeout": 1.25,
+    "RunLoopSleepTime": 0.15
+}

@@ -1,11 +1,13 @@
-from Data.Drawer import Drawer
+from Utilities.Drawer import Drawer
 
 class PageBase:
     drawer: Drawer = None
+    config = None
     nextUpdate = 0
 
-    def __init__(self, drawer: Drawer):
+    def __init__(self, drawer: Drawer, config):
         self.drawer = drawer
+        self.config = config
 
     def EnterPage(self):
         self.nextUpdate = 0

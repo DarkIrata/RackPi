@@ -1,5 +1,5 @@
-from Data.Drawer import Drawer
-from Data.Helper import *
+from Utilities.Drawer import Drawer
+from Utilities.Helper import *
 from Pages.PageBase import PageBase
 
 class MultiPageBase(PageBase):
@@ -7,8 +7,8 @@ class MultiPageBase(PageBase):
     PageCount = 1
     CurrentPageIndex = 1
 
-    def __init__(self, pageCount, drawer: Drawer):
-        PageBase.__init__(self, drawer)
+    def __init__(self, pageCount, drawer: Drawer, config):
+        PageBase.__init__(self, drawer, config)
         self.PageCount = pageCount
 
     def OnLongPress(self):
